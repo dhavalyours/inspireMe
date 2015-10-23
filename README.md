@@ -16,6 +16,13 @@ inspireMe is a quote application written in ionic framework to let users browse 
 2. animations with animate.css.
 3. load quotes from static Json.
 
+The project consists of 3 working parts
+
+1. inspireApp written in ObjectiveC.      <a href="https://github.com/dhavalyours/inspireMeObjectiveC" target="_blank">Link</a>
+2. inspireApp written in ionic framework. <a href="https://github.com/dhavalyours/inspireMe" target="_blank">Link</a>
+3. inspireApp scrapper writen in PHP.     <a href="#" target="_blank">Coming soon.</a>
+
+
 
 # **Steps To Install**
 
