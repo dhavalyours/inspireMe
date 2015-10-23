@@ -3,6 +3,7 @@
 Quotes App made on  IONIC Framework.
 
 The Android link for this app is  <a href="http://bit.ly/inspireMeAndroid" target="_blank">Download on Playstore</a>
+
 The iOS link for this app is  <a href="http://bit.ly/inspireMeiOS" target="_blank">Download on AppStore</a>
 
 
