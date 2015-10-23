@@ -2,7 +2,8 @@
 
 Quotes App made on  IONIC Framework.
 
-The Android link for this app is  [Download on Playstore](http://bit.ly/inspireMeAndroid)
+The Android link for this app is  <a href="http://bit.ly/inspireMeAndroid" target="_blank">Download on Playstore</a>
+
 
 # **What is it ?**
 
@@ -15,7 +16,7 @@ inspireMe is a quote application written in ionic framework to let users browse 
 
 # **Steps To Install**
 
-1. Install ionic framework from [Install ionic Framework](http://ionicframework.com/docs/guide/installation.html)
+1. Install ionic framework from <a href="http://ionicframework.com/docs/guide/installation.html" target="_blank">Install ionic Framework</a>
 2. Run ionic serve --lab in root folder.
 
 # **App Preview Images**
@@ -29,7 +30,7 @@ inspireMe is a quote application written in ionic framework to let users browse 
 ![](https://lh3.googleusercontent.com/lrOlwLiuPiDaT3f8UURyMP_TZu2HjhXri8TTTQ0m_xTLo15oMA6zdFK29ClXd9x27tg=h900-rw)
 
 # **App Video Preview**
-Video Url : https://youtu.be/Zb7grqfzDtw
+Video Url : <a href="https://youtu.be/Zb7grqfzDtw" target="_blank"> Watch Video</a>
 
 
 # **Contribute!**
@@ -42,9 +43,9 @@ You should fork the repo as described here: http://help.github.com/fork-a-repo/
 
 The quotes shown in the app have been scrapped from following sources
 
-1. Flickr [http://www.flickr.com](Link)
-2. Twitter FreakyTheory [Link](https://twitter.com/FreakyTheory)
-3. Twitter quotes [Link](https://twitter.com/quotes)
+1. Flickr <a href="http://www.flickr.com" target="_blank">Link</a>
+2. Twitter <a href="https://twitter.com/FreakyTheory" target="_blank">FreakyTheory</a> 
+3. Twitter <a href="https://twitter.com/quotes" target="_blank">Quotes</a> 
 
 
 # **License**
@@ -60,4 +61,5 @@ Please check GNU General Public License at http://www.gnu.org/licenses.
 
 Written by Dhaval Pancholi,
 
-contact me on email at dhavalyours@gmail.com
+contact me on email at <a href="mailto:dhavalyours@gmail.com" target="_blank">dhavalyours@gmail.com</a>
+
