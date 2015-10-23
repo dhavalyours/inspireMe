@@ -1,0 +1,22 @@
+1. https://libraries.io/bower/ionic-cache-src
+2. animate.css
+3. ionic framework
+4. angularjs
+5. bower
+6. npm
+7. ngcordova
+
+  sudo npm install -g bower
+  bower install ngCordova
+  cordova plugin add https://github.com/katzer/cordova-plugin-email-composer.git
+  cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git
+
+
+
+
+ keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
+ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore android-release-unsigned.apk alias_name
+
+
+ /Users/dhaval/Library/Android/sdk/build-tools/23.0.1/zipalign -v 4 android-release-unsigned.apk inspiresMe.apk

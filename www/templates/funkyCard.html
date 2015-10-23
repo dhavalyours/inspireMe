@@ -1,0 +1,27 @@
+
+<!-- slidebox code.-->
+<div style="background-color: #222222;">
+<ion-slide-box  show-pager="false" does-continue="true" delegate-handle="image-viewer" on-slide-changed="slideHasChanged($index)">
+  <ion-slide ng-repeat="oImage in data.slides">
+      <img ng-src="{{oImage.img_url}}"  class="fullscreen-image" />
+    </ion-slide>
+</ion-slide-box>
+</div>
+
+<!--
+<ion-pane ng-controller="CardsCtrl">
+    <td-cards>
+        <td-card id="td-card" ng-repeat="card in cards" on-destroy="cardDestroyed($index)"
+                 on-swipe-left="cardSwipedLeft($index)" on-swipe-right="cardSwipedRight($index)"
+                 on-partial-swipe="cardPartialSwipe(amt)" style="border: 1px solid red;>
+            <div class="title">
+                {{card.title}}
+            </div>
+            <div class="image">
+                <div class="no-text overlayBox"><div class="noBox boxed">Trash</div></div>
+                <img ng-src="{{card.image}}">
+                <div class="yes-text overlayBox"><div class="yesBox boxed" id="centerMe">Save</div></div>
+            </div>
+        </td-card>
+    </td-cards>
+</ion-pane>-->

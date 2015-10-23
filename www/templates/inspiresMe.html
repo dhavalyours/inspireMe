@@ -1,0 +1,31 @@
+<ion-content class="padding"
+             id="content"
+             on-swipe-up="onGesture('Swipe Up')"
+             on-swipe-right="onGesture('Swipe Right')"
+             on-swipe-left="onGesture('Swipe Left')"
+             scroll="false"
+
+           >
+
+    <img ng-src="https://pbs.twimg.com/media/CO1nrquWUAAsodc.jpg"
+         id="quote_card"
+         class="fullscreen-image animated jello"
+            />
+
+</ion-content>
+
+<ion-tabs class="tabs-icon-top">
+
+    <ion-tab title="Home" icon="ion-ios-home" href="#/app">
+
+    </ion-tab>
+
+    <ion-tab title="Share Card" icon="ion-share"   on-select="showSharedScreen()" >
+
+    </ion-tab>
+
+    <ion-tab title="Info" icon="ion-ios-information-outline"  href="#/info">
+
+    </ion-tab>
+
+</ion-tabs>

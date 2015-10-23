@@ -1,0 +1,218 @@
+/* Empty. Add your own CSS if you like */
+.transparent {
+    background: transparent !important;
+}
+.image-modal {
+    width: 100% !important;
+    height: 100%;
+    top: 0 !important;
+    left: 0 !important;
+}
+.fullscreen-image {
+    max-width: 100%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+p.info {
+    position: absolute;
+    bottom: 55px;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/* Fix modal backdrop for smaller devices */
+@media (max-width: 679px) {
+    .active .modal-backdrop-bg {
+        opacity: .5;
+    }
+    .modal-backdrop-bg {
+        -webkit-transition: opacity 300ms ease-in-out;
+        transition: opacity 300ms ease-in-out;
+        background-color: #000;
+        opacity: 0;
+    }
+}
+
+
+
+td-cards {
+    display: block;
+}
+
+td-card {
+    position: absolute;
+    /*left: 50%;
+    margin: 80px 0 40px -150px; */
+    left: 10%;
+    top:10%;
+    width: 320px;
+    height: 600px;
+    border: 1px solid #999;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    background-color: rgb(255,255,255);
+}
+
+.td-card .title {
+    height: 40px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+td-card .image {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+td-card img {
+    height: 258px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Overlay styling*/
+
+.overlayBox {
+    position: absolute;
+    left: 50%;
+    height: 98%;
+    width: 100%;
+    top: -80px;
+    opacity: 0;
+    margin: 80px 0 0 -149px;
+}
+
+.boxed {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 30px;
+}
+
+.yes-text {
+    background-color: rgba(0,256,0,0.2);
+}
+
+.yesBox {
+    margin: 10% 60% 0% 10%;
+    border: 2px solid #00FF00;
+    color: rgb(0, 256, 0);
+    -webkit-transform: rotate(-25deg);
+}
+
+.no-text {
+    background-color: rgba(256,0,0,0.2);
+}
+
+.background, .background .pane, .background .item, .background .item-complex .item-content {
+    background-color: black;
+}
+.noBox {
+    margin: 10% 10% 0% 60%;
+    border: 2px solid #FF0000;
+    color: rgb(256, 0, 0);
+    -webkit-transform: rotate(25deg);
+}
+
+.fade {
+    -webkit-transition: 0.2s opacity linear;
+    transition: 0.2s opacity linear;
+    opacity: 0;
+}
+
+.footer-bar-custom {
+    background: #455D87;
+    color: #F6F7F0;
+    height: 44px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 5
+}
+
+.footer-bar-custom .item-left,
+.footer-bar-custom .item-center,
+.footer-bar-custom .item-right {
+    position: absolute;
+    width: 30px
+}
+
+.platform-android .bar-subheader.has-tabs-top{
+    top:93px !important;
+}
+.card .item{
+  /*  background: #9C27B0; */
+}
+
+.item{
+    color: #fff;
+    text-align: center;
+}
+
+.item p{
+    color: #fff;
+    text-align: justify;
+}
+
+.item a{
+    color: #fff;
+    text-align: justify;
+}
+
+.item li{
+    color: #fff;
+    text-align: justify;
+}
+.info-bg{
+    background-color:#212121;
+    padding-top: 50px;
+}
+
+.platform-android .has-subheader.has-tabs-top{
+    top:137px;
+}
+
+.tabs-top > .tabs, .tabs.tabs-top {
+    top: 0 !important;
+}
+
+.has-tabs-top {
+    top: 54px !important;
+}
+.footer-bar-custom .item-left { left: 10px }
+
+.footer-bar-custom .item-center {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.info_sub_header{
+    color: #fff;
+    text-align:left;
+}
+
+.footer-bar-custom .item-right { right: 10px }
+a.button .icon:before,
+a.button.icon:before,
+a.button.icon-left:before,
+a.button.icon-right:before { margin-top: 0 }
