@@ -1,7 +1,7 @@
 {
-  "name": "funkycards",
+  "name": "inspiresMe",
   "version": "1.0.0",
-  "description": "FunkyCards: An Ionic project",
+  "description": "inspiresMe : Quotes for inspiration",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^1.3.3",
